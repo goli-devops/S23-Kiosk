@@ -56,7 +56,7 @@ setInterval(() => {
     regularTen.style.display = "none";
     onp.style.display = "table-row";
   } else {
-    onp.style.display = "none";
+    onp.style.display = "table-row";
     regularTen.style.display = "table-row";
   }
 }, 1000); // Update every second
