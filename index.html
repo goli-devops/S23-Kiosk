@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trinoma</title>
+    <link rel="stylesheet" href="./style.css" />
+    <!-- favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="../favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="../favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="../favicon/site.webmanifest" />
+  </head>
+  <body>
+    <div class="container" id="container">
+      <p class="walkin-banner" id="walkin-banner">WALK-IN ROOM RATES</p>
+      <div class="logo-box">
+        <img class="logo" src="../images/image1.png" alt="logo" />
+      </div>
+      <img class="bg-logo" src="../images/image2.png" alt="bg-logo" />
+
+      <!-- WALK-IN RATES -->
+      <!-- weekday -->
+      <div class="modal" id="modal">
+        <table class="weekday" id="weekday">
+          <th class="week-el">WEEKDAY RATE</th>
+          <th class="room-type">ECONO</th>
+          <th class="room-type">PREMIUM</th>
+          <th class="room-type">DELUXE</th>
+          <th class="room-type">EXECUTIVE</th>
+          <th class="room-type">REGENCY</th>
+          <tr class="rate-box">
+            <td class="los">3HRS</td>
+            <td class="rates">415</td>
+            <td class="rates">510</td>
+            <td class="rates">545</td>
+            <td class="rates">590</td>
+            <td class="rates">725</td>
+          </tr>
+          <tr class="rate-box">
+            <td class="los">6HRS</td>
+            <td class="rates">770</td>
+            <td class="rates">770</td>
+            <td class="rates">850</td>
+            <td class="rates">935</td>
+            <td class="rates">1135</td>
+          </tr>
+          <tr class="rate-box" id="regular-ten">
+            <td class="los">10HRS</td>
+            <td class="rates">970</td>
+            <td class="rates">970</td>
+            <td class="rates">1050</td>
+            <td class="rates">1140</td>
+            <td class="rates">1380</td>
+          </tr>
+          <tr class="rate-box" id="onp">
+            <td class="los">10HRS ONP</td>
+            <td class="rates">-</td>
+            <td class="rates">660</td>
+            <td class="rates">690</td>
+            <td class="rates">735</td>
+            <td class="rates">860</td>
+          </tr>
+          <tr class="rate-box">
+            <td class="los">12HRS</td>
+            <td class="rates">1130</td>
+            <td class="rates">1130</td>
+            <td class="rates">1230</td>
+            <td class="rates">1300</td>
+            <td class="rates">1610</td>
+          </tr>
+          <tr class="rate-box">
+            <td class="los">24HRS</td>
+            <td class="rates">1595</td>
+            <td class="rates">1595</td>
+            <td class="rates">1770</td>
+            <td class="rates">1890</td>
+            <td class="rates">2200</td>
+          </tr>
+        </table>
+        <!-- weekend -->
+        <table class="weekend" id="weekend">
+          <th class="week-el">WEEKEND RATE</th>
+          <th class="room-type">ECONO</th>
+          <th class="room-type">PREMIUM</th>
+          <th class="room-type">DELUXE</th>
+          <th class="room-type">EXECUTIVE</th>
+          <th class="room-type">REGENCY</th>
+          <tr class="rate-box">
+            <td class="los">3HRS</td>
+            <td class="rates">440</td>
+            <td class="rates">575</td>
+            <td class="rates">605</td>
+            <td class="rates">660</td>
+            <td class="rates">785</td>
+          </tr>
+          <tr class="rate-box">
+            <td class="los">6HRS</td>
+            <td class="rates">885</td>
+            <td class="rates">885</td>
+            <td class="rates">940</td>
+            <td class="rates">1005</td>
+            <td class="rates">1185</td>
+          </tr>
+          <tr class="rate-box">
+            <td class="los">10HRS</td>
+            <td class="rates">1250</td>
+            <td class="rates">1250</td>
+            <td class="rates">1270</td>
+            <td class="rates">1340</td>
+            <td class="rates">1580</td>
+          </tr>
+          <tr class="rate-box">
+            <td class="los">12HRS</td>
+            <td class="rates">1400</td>
+            <td class="rates">1400</td>
+            <td class="rates">1445</td>
+            <td class="rates">1540</td>
+            <td class="rates">1740</td>
+          </tr>
+          <tr class="rate-box">
+            <td class="los">24HRS</td>
+            <td class="rates">1770</td>
+            <td class="rates">1770</td>
+            <td class="rates">1920</td>
+            <td class="rates">2065</td>
+            <td class="rates">2375</td>
+          </tr>
+        </table>
+      </div>
+      <div class="date-box">
+        <h2 class="date-el" id="date-el">date</h2>
+      </div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
