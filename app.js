@@ -36,7 +36,7 @@ setInterval(() => {
     // Sunday before 6:00 pm
     // Show Weekend Rate
     weekendRateElement.style.display = "block";
-    weekdayRateElement.style.display = "none";
+    weekdayRateElement.style.display = "block";
   } else {
     // Show Weekday Rate
     weekdayRateElement.style.display = "block";
