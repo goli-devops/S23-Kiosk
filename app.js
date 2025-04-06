@@ -23,13 +23,9 @@ setInterval(() => {
 
   // Get the elements for weekday and weekend rates
   let weekdayRateElement = document.getElementById("weekday")
-  let driveinWeekdayElement = document.getElementById("weekday-drivein")
   let weekendRateElement = document.getElementById("weekend")
-  let driveinWeekendElement = document.getElementById("weekend-drivein")
   let onp = document.getElementById("onp")
   let regularTen = document.getElementById("regular-ten")
-  let driveinRegularTen = document.getElementById("drivein-regular-ten")
-  let driveinOnp = document.getElementById("drivein-onp")
 
   // Start WEEKDAY 6pm Sunday to Friday 5:59 am
   // Start WEEKEND Friday 6am to Sunday 5:59pm
@@ -41,9 +37,7 @@ setInterval(() => {
   ) {
     // Show Weekend Rate
     weekendRateElement.style.display = "block"
-    driveinWeekendElement.style.display = "block"
     weekdayRateElement.style.display = "none"
-    driveinWeekdayElement.style.display = "none"
   } else {
     // Show Weekday Rate
     weekdayRateElement.style.display = "block"
@@ -62,14 +56,10 @@ setInterval(() => {
     (currentDay >= 1 && currentDay <= 5 && currentHour < 6)
   ) {
     regularTen.style.display = "none"
-    driveinRegularTen.style.display = "none"
     onp.style.display = "table-row"
-    driveinOnp.style.display = "table-row"
   } else {
     onp.style.display = "none"
-    driveinOnp.style.display = "none"
     regularTen.style.display = "table-row"
-    driveinRegularTen.style.display = "table-row"
   }
 }, 1000) / // Update every second
   // ZOOM WEBPAGE IF CLICK ANYWHERE
