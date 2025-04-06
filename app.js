@@ -37,13 +37,13 @@ setInterval(() => {
   ) {
     // Show Weekend Rate
     weekendRateElement.style.display = "block"
+
     weekdayRateElement.style.display = "none"
   } else {
     // Show Weekday Rate
     weekdayRateElement.style.display = "block"
-    driveinWeekdayElement.style.display = "block"
+
     weekendRateElement.style.display = "none"
-    driveinWeekendElement.style.display = "none"
   }
 
   // Show ONP (Overnight Promo) from 9:00pm to 5:59am, Sunday to Friday
